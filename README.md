@@ -23,9 +23,11 @@
 MMID demonstrates a simple yet significantly performance-improving distillation strategy, used for medical imaging, especially OCT image classification, multi-label, or dataset organization.
 
 
-![MMID automatic weights calculation with a macular OCT study example 1](fig1.png)
+These two examples shows the automatic weights calculation within a macular OCT study
 
-![MMID automatic weights calculation with a macular OCT study example 2](fig2.png)
+![MMID automatic weights calculation within a macular OCT study example 1](fig1.png)
+
+![MMID automatic weights calculation within a macular OCT study example 2](fig2.png)
 
 
 ## Medical Report Generation
