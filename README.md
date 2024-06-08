@@ -2,17 +2,6 @@
 
 
 
-## Environment
-Anaconda3 (highly recommendation)
-
-python3.6/3.7/3.8
-
-vscode (IDE)
-
-pytorch 1.10 (pip package)
-
-torchvision 0.11.1 (pip package)
-
 
 
 
@@ -45,6 +34,20 @@ MMID demonstrates a simple yet significantly performance-improving distillation 
 
 
 This is the first time we have performed the task of report generation in OCT medical images, and the model improvements we have made demonstrate a more reliable performance.
+
+
+
+## Environment
+Anaconda3 (highly recommendation)
+
+python3.6/3.7/3.8
+
+vscode (IDE)
+
+pytorch 1.10 (pip package)
+
+torchvision 0.11.1 (pip package)
+
 
 
 </font>
