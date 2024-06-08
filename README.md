@@ -24,15 +24,13 @@ MMID demonstrates a simple yet significantly performance-improving distillation 
 
 ## Medical Report Generation
 
-- Train with `main_oct.py` and `r2genUPD_version2.py`, which is an improvement scheme based on OCT features on the R2GEN model.
+- Train with `main_oct.py` and `r2genUPD_version2.py`, which is an improvement scheme for multi-frames medical image report generation.
 
-**Three main improvements:**
+** main improvements:**
 
-1. For OCT multi-frame images, 10-frame sampling is used.
-2. The multi-frame feature sampling fusion position is set behind the encoder. In other words, a mean feature fusion layer is added between the encoder and decoder.
-3. The model simultaneously performs inference on six types of labels and then fuses them through cross-task feature fusion between the encoder and decoder.
-
-
+#For OCT multi-frame images, use a 10-frame sampling.
+#The improved multi-frame images employ a feature fusion strategy in the CNN encoder-decoder architecture.
+#Through cross-task feature fusion, multi-label diagnostic signals are used as auxiliary information to enhance report generation performance.
 This is the first time we have performed the task of report generation in OCT medical images, and the model improvements we have made demonstrate a more reliable performance.
 
 
