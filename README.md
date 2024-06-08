@@ -22,6 +22,12 @@
 
 MMID demonstrates a simple yet significantly performance-improving distillation strategy, used for medical imaging, especially OCT image classification, multi-label, or dataset organization.
 
+
+![MMID automatic weights calculation with a macular OCT study example 1](fig1.png)
+
+![MMID automatic weights calculation with a macular OCT study example 2](fig2.png)
+
+
 ## Medical Report Generation
 
 - Train with `main_oct.py` and `r2genUPD_version2.py`, which is an improvement scheme for multi-frames medical image report generation.
