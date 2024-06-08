@@ -4,9 +4,13 @@
 
 ## Environment
 Anaconda3 (highly recommendation)
+
 python3.6/3.7/3.8
+
 vscode (IDE)
+
 pytorch 1.10 (pip package)
+
 torchvision 0.11.1 (pip package)
 
 
